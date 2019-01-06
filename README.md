@@ -1,12 +1,12 @@
 # Synthetic-Categorical-Data
-In development but as an example have 3 variables for example:
-- Animal Type
-- Animal Appetite
-- Animal Size
+In development but as an example given the following 3 categories variables:
+- Animal Type : { large, medium, small }
+- Animal Appetite : { ravenous, rarely easts }
+- Animal Size ...
 
-If you have summary data on the relationship between size and appetite and between Type and Size and other conditional probabilities 
-then you can create a full (but synetetic) dataset containing all three variable names together (though that would be a toy 
-example).
+If you have summary data on the relationship between size and appetite and between Type and Size and other conditional probabilities then you can create a full (but synetetic) dataset containing all three variable names together (though that would be a toy example).
+
+You would be able to specifiy the population size that you wnat to create data for and the patterns between the variables should hold.
 
 This could be useful for:
 - Developing new data viz techniques (e.g. how to show how that two categorical variables vary togther in the presence of a 
