@@ -164,7 +164,7 @@ print (prob)
 # Constraints: Absolute Probabilities
 # -----------------------------------------------------
 
-# Absolute Probabilities, there are more males
+# Absolute Probabilities, there are more females
 prob += gender_var['m'] == 0.4 * N
 prob += gender_var['f'] == 0.6 * N
 
