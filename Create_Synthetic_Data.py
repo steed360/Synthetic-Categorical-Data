@@ -160,6 +160,16 @@ for thisIntVar in intVars: # loop through the keys (e.g. ('a', 'f') )
 
 print (prob)
 
+#elements_('m',_'t',_'e') + 8.0
+#elements_('m',_'t',_'a') + 12.0
+#elements_('m',_'p',_'e')
+#elements_('m',_'p',_'a') + 20.0
+#elements_('f',_'t',_'e') + 11.2
+#elements_('f',_'t',_'a') + 12.8
+#elements_('f',_'p',_'e') + 12.8
+#elements_('f',_'p',_'a') + 23.2
+
+
 # -----------------------------------------------------
 # Constraints: Absolute Probabilities
 # -----------------------------------------------------
