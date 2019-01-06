@@ -102,12 +102,11 @@ c = list (map(list,b_set ) ) # back to a list of lists.
 d = [ list(itertools.combinations(i,2)) for i in c]
 e = [tuple(sorted(x)) for sublist in d for x in  sublist] # flatten the list
 
-# remove the variables that are currently in the same variable..
+# remove the categories/levels that are from the same variable..
 # - Get a set of tuples each representing the same categories in different variables.
 allVarsSorted = [ sorted(i) for i in allVars ] 
 f =  set (map (tuple, allVarsSorted) )
-
-# Remove out the unwanted pairs to provide the final list of intermediate variable pairs.
+# - Remove out the unwanted pairs to provide the final list of intermediate variable pairs.
 intVarPairTuples = list (set(e) - f)
 
 intVars = LpVariable.dicts("intermediate",(intVarPairTuples) )
