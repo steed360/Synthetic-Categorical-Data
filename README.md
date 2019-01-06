@@ -1,7 +1,7 @@
 # Synthetic-Categorical-Data
 In development but as an example given the following 3 categories variables:
 - Animal Type : { large, medium, small }
-- Animal Appetite : { ravenous, rarely easts }
+- Animal Appetite : { ravenous, rarely eats }
 - Animal Size ...
 
 If you have summary data on the relationship between size and appetite and between Type and Size and other conditional probabilities then you can create a full (but synetetic) dataset containing all three variable names together (though that would be a toy example).
